@@ -17,8 +17,6 @@ Vagrant.configure("2") do |config|
   config.vm.define "node-#{i}" do |node|
     node.vm.box = "puppetlabs/centos-6.6-64-nocm"
     node.vm.network "private_network", ip: "33.33.33.10#{i}"
-    node.berkshelf.enabled = true
-    node.berkshelf.berksfile_path = "cookbooks/couchbase/Berksfile"
     node.vm.provision :chef_solo do |chef|
      chef.json = {
      }
