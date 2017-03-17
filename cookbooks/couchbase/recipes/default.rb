@@ -18,7 +18,9 @@ rpm_package 'couchbase-release-1.0-2-x86_64' do
   source '/tmp/#{couchbase_repo_package}'
 end
 
-package 'couchbase-server-community'
+package 'couchbase-server-community' do
+	version '4.5.0-2601'
+end
 
 service 'couchbase-server' do
   action [:enable, :start]
@@ -41,4 +43,7 @@ iptables_rule 'cbw_8091' do
 ].flatten.join("\n")
 end
 
+service 'iptables' do
+  action [:reload]
+end
 
