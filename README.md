@@ -27,5 +27,5 @@
 
   Administrator/hello123@
 
-*Bucket:
+*Bucket:*
   my_protected_bucket/pass123@
