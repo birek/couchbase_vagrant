@@ -24,3 +24,6 @@ service 'couchbase-server' do
   action [:enable, :start]
 end
 
+service 'iptables' do
+  action [:stop, :disable]
+end

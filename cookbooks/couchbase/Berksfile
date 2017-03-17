@@ -1,4 +1,2 @@
 source 'https://supermarket.chef.io'
-
-cookbook 'iptables', '~> 4.0.0'
 metadata
