@@ -30,3 +30,4 @@ Couchbase credentials
   Administrator/hello123@
 
 Bucket:
+  my_protected_bucket/pass123@
