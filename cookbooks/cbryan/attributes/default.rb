@@ -1,0 +1,10 @@
+default['couchbase']['server']['edition'] = "community"
+default['couchbase']['server']['version'] = "4.5.0"
+default['couchbase']['server']['username'] = "Administrator"
+default['couchbase']['server']['password'] = "hello123@"
+default['couchbase']['server']['package_full_url'] = "https://packages.couchbase.com/releases/4.5.0/couchbase-server-community-4.5.0-centos6.x86_64.rpm"
+default['couchbase']['server']['package_file'] = "couchbase-server-community-4.5.0-centos6.x86_64.rpm"
+default['couchbase']['cluster']['username'] = "Administrator"
+default['couchbase']['cluster']['password'] = "hello123@"
+default['couchbase']['cluster']['name'] = "cluster1"
+default['couchbase']['cluster']['memory_quota_mb'] = 512

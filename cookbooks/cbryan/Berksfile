@@ -1,0 +1,4 @@
+source 'https://supermarket.chef.io'
+cookbook 'couchbase', '~> 1.4.2', git: 'https://github.com/disney/couchbase.git'
+cookbook 'mbir_couchbase', '~> 0.1.0', path: '../mbir_couchbase'
+metadata
